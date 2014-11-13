@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Exemplu JQuery</title>
+<script src="jquery-1.11.0.min.js" type="text/javascript"></script>
+<script>
+$(function() {
+	$("#butonu").click(function() {
+		$("#textu").text("S-a apasat butonul.");
+	});
+});
+</script>
+</head>
+<body>
+<div id="textu">Apasati butonul.</div>
+<form>
+<input type="button" id="butonu" value="Butonas">
+</form>
+</body>
+</html>
